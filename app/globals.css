@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+body {
+  background: radial-gradient(circle at 0% 0%, #e5e7eb 0%, #f1f5f9 50%, #e2e8f0 100%);
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+/* Base glass utility styles */
+.glass {
+  background: rgba(255, 255, 255, 0.55) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.45) !important;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.05) !important;
+}
+
+.glass-dark {
+  background: rgba(15, 23, 42, 0.04) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+  border: 1px solid rgba(15, 23, 42, 0.08) !important;
+}
+
+.ai-pill {
+  background: linear-gradient(135deg, #4f46e5 0%, #9333ea 100%) !important;
+  color: white !important;
+}
+
+/* Glass inputs */
+.glass-input {
+  background: rgba(255, 255, 255, 0.4) !important;
+  backdrop-filter: blur(4px) !important;
+  -webkit-backdrop-filter: blur(4px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+.glass-input:focus {
+  background: rgba(255, 255, 255, 0.7) !important;
+  border-color: rgba(79, 70, 229, 0.4) !important;
+  outline: none !important;
+}
