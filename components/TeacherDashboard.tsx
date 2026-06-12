@@ -450,7 +450,7 @@ export default function TeacherDashboard() {
                       <button
                         type="button"
                         onClick={() => setShowAddLesson(false)}
-                        className="px-2.5 py-1 bg-white text-gray-600 rounded-md border text-[10px]"
+                        className="px-2.5 py-1 glass text-gray-600 rounded-md text-[10px]"
                       >
                         Hủy
                       </button>
@@ -593,7 +593,7 @@ export default function TeacherDashboard() {
                       <button
                         type="button"
                         onClick={() => setShowAddQuiz(false)}
-                        className="px-2.5 py-1 bg-white text-gray-600 rounded-md border text-[10px]"
+                        className="px-2.5 py-1 glass text-gray-600 rounded-md text-[10px]"
                       >
                         Huỷ
                       </button>

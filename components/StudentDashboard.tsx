@@ -680,7 +680,7 @@ export default function StudentDashboard() {
                                   const showExplanation = quizResult !== null;
                                   const isCorrectOption = quiz.correctAnswer === oIdx;
 
-                                  let optionStyle = "border-gray-200 bg-white text-gray-700 hover:bg-gray-50";
+                                  let optionStyle = "border-white/20 glass text-gray-700 hover:bg-white/40";
                                   if (checked) {
                                     optionStyle = "border-blue-500 bg-blue-100/50 text-blue-700";
                                   }

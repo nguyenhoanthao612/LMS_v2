@@ -143,7 +143,7 @@ export default function Navbar() {
                         onClick={() => {
                           markNotificationRead(notif.id);
                         }}
-                        className={`p-2 rounded-xl text-[11px] cursor-pointer transition-colors ${notif.read ? 'bg-white hover:bg-gray-50 text-gray-500' : 'bg-blue-50/50 hover:bg-blue-50 text-gray-900'}`}
+                        className={`p-2 rounded-xl text-[11px] cursor-pointer transition-colors ${notif.read ? 'glass hover:bg-white/40 text-gray-500' : 'bg-blue-500/20 hover:bg-blue-500/30 text-gray-900 border border-blue-400/30'}`}
                       >
                         <div className="flex justify-between items-center mb-0.5">
                           <span className="font-semibold">{notif.title}</span>
